@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+background-color: whitesmoke;
+
+}
+
+.navbar {
+     backdrop-filter: saturate(180%) blur(20px)
+
+}
+
+.card:hover{
+box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+
+}
+
+.card {
+  background-color: white;
+    margin: 40px;
+    text-align: center;
+    display: inline-block;
+    transition: all 1ms ease;
+    transform: scale(1.03);
+    color: black;
+    cursor: pointer;
+
+}
+
+.xiaomi-logo {
+    width: 35px;
+    height: 35px;
+}
+
+.card-img-top {
+    position: relative;
+}
+
+.container{
+ max-width: 1900px;
+ margin-left: auto;
+}
+
+
+.yt-holder{
+ position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 50%;
+ margin-bottom: 200px;
+
+
+}
+.yt-holder >iframe{
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+
+}
+
+
+.footer {
+ background-color: #343434;
+}
+
+.footer h4 {
+ color: #ccc;
+ text-transform: uppercase;
+ font-size: 16px;
+ border-bottom: 1px solid #666;
+ padding-bottom: 3px;
+}
+
+.footer a {
+ text-decoration: none;
+ transition: all .3s;
+}
+
+.footer a:hover {
+ color: #fff;
+ text-decoration: underline;
+}
+
+.footer a, .footer li {
+ color: #c8c8c8;
+}
+
+.footer li a {
+ display: block;
+}
+
+.footer-icons a {
+ display: inline-block;
+ margin-right: 15px;
+ font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
